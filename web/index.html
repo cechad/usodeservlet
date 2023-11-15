@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1> Datos del Cliente </h1>
+        <form action="SvUsuarios" method="POST">
+            <p><label>DPI: </label><input type="text" name="dpi"></p>
+            <p><label>Nombre: </label><input type="text" name="nombre"></p>
+            <p><label>Apellido: </label><input type="text" name="apellido"></p>
+            <p><label>Telefono: </label><input type="text" name="telefono"></p>
+            <button type="submit" > Enviar</button>
+        </form>
+        
+        <h1>Ver lista de usuarios </h1>
+        <p>para ver los usuarios haga clip en el siguiente botón</p>
+        <form action="SvUsuarios" method="get">
+            <button type="Submit"> Mostrar usuarios </button >
+        </form>
+        
+    </body>
+</html>
